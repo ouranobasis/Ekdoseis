@@ -26,12 +26,15 @@ h1#title {
 #list_container {
     margin-top: 40px;
     width: 80%;
+    display: flex;
+    justify-content: center; /* Centers the ul */
 }
 
 ul {
     list-style-type: none;
     padding: 0;
     width: 100%;
+    max-width: 600px; /* Optional: Prevents it from stretching too much */
 }
 
 li {
