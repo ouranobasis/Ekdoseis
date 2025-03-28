@@ -24,10 +24,12 @@ h1#title {
 }
 
 #list_container {
-    margin-top: 40px;
+    margin: 40px auto; /* Centers the container itself */
     width: 80%;
     display: flex;
-    justify-content: center; /* Centers the ul */
+    justify-content: center; /* Centers ul inside */
+    align-items: center; /* Aligns items vertically */
+    flex-direction: column; /* Keeps content stacked */
 }
 
 ul {
