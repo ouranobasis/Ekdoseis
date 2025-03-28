@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "copticregular";
+    /* src: url('Coptic-Regular.ttf'); */
+    src: url('Coptic-Regular.ttf') format('truetype')       
+  }
+
+#title {
+    color: brown;
+    text-align: center;
+    font-size: 4em;
+}
+
+#navigationn {
+    font-size: 2em;
+}
+
+#sayings_container {
+    margin: 1em 3em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#jesus {
+    width: 20em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stoixonOne{
+    font-family: 'copticregular', Times, serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.stoixonTwo{
+    font-family: Times, serif;
+    color: brown;
+    font-size: x-large;
+    font-weight: 200;
+    margin: 1%;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: brown;
+}

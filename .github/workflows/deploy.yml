@@ -2,37 +2,34 @@ name: Deploy static content to GitHub Pages
 
 on:
   push:
-    branches: 
-      - master   # Trigger deployment on push to the master branch
-  workflow_dispatch:   # Allow manual trigger from GitHub UI
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+    branches:
+      - master
+  workflow_dispatch:  # Allows manual triggering of the workflow
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 15  # Optional: Increase timeout if necessary
+    
+    # Specify the environment for deployment
+    environment:
+      name: github-pages  # This is the required environment for GitHub Pages
+      url: ${{ steps.deployment.outputs.page_url }}  # URL of the deployed page
 
     steps:
-      # Step 1: Checkout the code
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-      # Step 2: Set up GitHub Pages configuration
-      - name: Setup Pages
+      - name: Set up Pages
         uses: actions/configure-pages@v4
 
-      # Step 3: Upload artifact (static files to be deployed)
-      - name: Upload artifact (static site files)
-        uses: actions/upload-artifact@v4
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
         with:
           name: github-pages
-          path: './index.html'  # Adjust this if you have multiple files or folders
+          path: ./docs  # Adjust this path based on where your files are
 
-      # Step 4: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages

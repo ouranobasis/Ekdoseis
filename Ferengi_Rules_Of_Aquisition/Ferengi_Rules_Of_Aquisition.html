@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <meta http-equiv="Cache-control" content="NO-CACHE">
+    <link rel="stylesheet" href="ferengi_styles.css">
+  </head>
+  <body>
+      <a id="navigation" href="../index.html">Main Menu</a>
+      <div id="quark_container">
+        <div id="quark_outline">
+          <img id="quark" src="quark.png" alt="quark">
+        </div>
+      </div>
+      <H1 id="english_title">Ferengi Rules of Aquisition</H1>	
+      <H1 id="title">οἱ κανόνες τοῦ κτήσεως πάρα Φερέγγι</H1>
+      <div id="sayings_container">	
+        <ul id="sayings"></ul>
+      </div>
+
+    <script>
+      function loadFile(filePath) {
+        var result = null;
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.open("GET", filePath, false);
+        xmlhttp.send();
+        if (xmlhttp.status==200) {
+          result = xmlhttp.responseText;
+        }
+        return result;
+      }
+
+      var myStuff = loadFile("Rules_Of_Aquisition_Injection_Text.txt");
+      var myArray = myStuff.split("#")
+      var myCleanedArray = [];
+
+      myArray.forEach(element => {
+         if (element !== "") {
+         myCleanedArray.push(element);
+         }
+      });
+
+      myCleanedArray.forEach(listIt);
+
+      function listIt(item){
+         var full_stoixon = item.split("$");         
+         var ul = document.getElementById("sayings");
+
+         var li_one = document.createElement('li');
+         var li_two = document.createElement('li');
+
+         li_one.classList.add("stoixonOne");
+         li_two.classList.add("stoixonTwo");
+
+         li_one.innerHTML = full_stoixon[0];
+         li_two.innerHTML = full_stoixon[1];
+         
+         ul.appendChild(li_one);
+         ul.appendChild(li_two)
+      }
+    </script>
+  </body>
+</html>

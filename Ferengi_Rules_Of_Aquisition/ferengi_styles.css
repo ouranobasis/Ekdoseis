@@ -1,0 +1,73 @@
+#title {
+    color: brown;
+    text-align: center;
+    font-size: 4em;
+}
+
+#navigation {
+    font-size: 2em;
+}
+
+#english_title {
+    text-align: center;
+    font-style: italic;
+    text-align: center;
+    font-size: 3em;
+}
+
+#sayings_container {
+    margin: 1em 3em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.stoixon{
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: brown;
+}
+
+#quark_container{
+    position: relative;
+    height: 26em;
+}
+
+#quark_outline{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 16em;
+    height: 26em;
+    display: block;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 50%;  
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+#quark {
+    width: 15em; 
+}
+
+.stoixonOne{
+    font-family: 'copticregular', Times, serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.stoixonTwo{
+    font-family: Times, serif;
+    color: brown;
+    font-size: x-large;
+    font-weight: 200;
+    margin: 1%;
+    font-style: italic;
+}
