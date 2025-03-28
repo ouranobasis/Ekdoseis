@@ -11,12 +11,11 @@
     font-size: 2.5rem;
     text-align: center;
     padding: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 20px auto;
-
 }
 
 #navigationn {
@@ -36,6 +35,7 @@ ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
 }
 
 .stoixonOne{
