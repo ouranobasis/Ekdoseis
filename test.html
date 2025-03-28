@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ancient Greek Translations</title>
+      <link rel="stylesheet" href="index_styles.css">
+      <style>
+         /* Inline CSS for scholastic style */
+         body {
+            font-family: 'Georgia', serif; /* Scholarly font */
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 20px;
+            padding: 0;
+            display: flex;           
+            align-items: flex-start; /* Align top */
+            height: 100vh;
+            flex-direction: column;
+         }
+
+         h1#title {
+            font-size: 2.5rem;
+            text-align: center;
+            color: #3e3e3e;
+            padding: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+
+            margin-top: 20px;
+            margin-bottom: 30px; /* Added space below the header */
+         }
+
+         #list_container {
+            margin-top: 40px;
+            width: 80%;
+         }
+
+         ul {
+            list-style-type: none;
+            padding: 0;
+         }
+
+         li {
+            margin: 15px 0;
+            font-size: 1.2rem;
+         }
+
+         li a {
+            text-decoration: none;
+            color: #4a4a4a;
+            background-color: #e1e1e1; /* Soft gray background */
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: 1px solid #bbb;
+            display: inline-block;
+            font-style: italic;
+            transition: all 0.3s ease;
+         }
+
+         li a:hover {
+            background-color: #d0b89f; /* Muted gold when hovered */
+            color: #fff;
+            transform: translateY(-2px);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+         }
+
+         li a:active {
+            transform: translateY(1px);
+         }
+
+         footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #777;
+            font-style: italic;
+         }
+
+         @media (max-width: 600px) {
+            h1#title {
+               font-size: 2rem;
+            }
+
+            li {
+               font-size: 1rem;
+            }
+         }
+      </style>
+   </head>
+   <body>
+      <div>
+         <h1 id="title">List of Ancient Greek Translations</h1>
+         <div id="list_container">
+            <ul>
+               <li><a href="Gospel_Of_Thomas/Euaggelion.html">ΤΟ ΕΥΑΓΓΕΛΙΟΝ ΚΑΤΑ ΘΩΜΑΣ</a></li>
+               <li><a href="Ferengi_Rules_Of_Aquisition/Ferengi_Rules_Of_Aquisition.html">ΟΙ ΚΑΝΟΝΕΣ ΤΟΥ ΚΤΗΣΕΩΣ ΠΑΡΑ ΦΕΡΕΓΓΙ</a></li>
+            </ul>
+         </div>
+      </div>
+   </body>
+</html>
