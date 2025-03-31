@@ -50,10 +50,7 @@ li {
 li a {
     text-decoration: none;
     color: #4a4a4a;
-    background-color: #e1e1e1;
     padding: 10px 20px;
-    border-radius: 5px;
-    border: 1px solid #bbb;
     display: block;
     font-style: italic;
     transition: all 0.3s ease;
@@ -63,8 +60,8 @@ li a {
 }
 
 li a:hover {
-    background-color: #d0b89f;
-    color: #fff;
+    background-color: e7e7e7;
+    color: #4a4a4a;
     transform: translateY(-2px);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
