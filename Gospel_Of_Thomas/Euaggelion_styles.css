@@ -31,10 +31,32 @@ h1#title {
     margin: 20px auto;
 }
 
-/* Navigation */
+/* Navigation - Main Menu */
 #navigationn {
     font-size: 2rem;
     margin: 20px 0;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#navigationn a {
+    background: linear-gradient(135deg, #8b0000, #a52a2a);
+    color: #fff;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#navigationn a:hover {
+    background: linear-gradient(135deg, #a52a2a, #8b0000);
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
 /* Container Styling */
@@ -139,5 +161,15 @@ footer {
 
     li a {
         max-width: 100%;
+    }
+
+    #navigationn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navigationn a {
+        font-size: 1.2rem;
+        padding: 10px 20px;
     }
 }
