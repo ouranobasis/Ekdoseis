@@ -8,8 +8,8 @@
       <a id="navigationn" href="../index.html">Main Menu</a>
       <img id="placeholder" src="placeholder">
       <H1 id="title">H METAFRASIS DRAKOULOY</H1>
-      <div id="placeholder">	
-         <ul id="sayings"></ul>
+      <div id="text">	
+         
       </div>
 
     <script>
@@ -24,34 +24,8 @@
         return result;
       }
 
-      var myStuff = loadFile("Euaggelion_Injection_Text.txt");
-      var myArray = myStuff.split("#")
-      var myCleanedArray = [];
-
-      myArray.forEach(element => {
-         if (element !== "") {
-         myCleanedArray.push(element);
-         }
-      });
-
-      myCleanedArray.forEach(listIt);
-
-      function listIt(item){
-         var full_stoixon = item.split("$");         
-         var ul = document.getElementById("sayings");
-
-         var li_one = document.createElement('li');
-         var li_two = document.createElement('li');
-
-         li_one.classList.add("stoixonOne");
-         li_two.classList.add("stoixonTwo");
-
-         li_one.innerHTML = full_stoixon[0];
-         li_two.innerHTML = full_stoixon[1];
-         
-         ul.appendChild(li_one);
-         ul.appendChild(li_two)
-      }
+      var myStuff = loadFile("01 - κεφαλαίον εἶς τῆς ἀρχαίας μεταφράσεως τοῦ Δρακοῦλου.txt");
+      document.getElementById("text").innerText = myStuff;
     </script>
   </body>
 </html>
