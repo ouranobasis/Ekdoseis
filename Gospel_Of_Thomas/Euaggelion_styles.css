@@ -1,62 +1,143 @@
+/* Custom Coptic Font */
 @font-face {
     font-family: "copticregular";
-    /* src: url('Coptic-Regular.ttf'); */
-    src: url('Coptic-Regular.ttf') format('truetype')       
-  }
+    src: url('Coptic-Regular.ttf') format('truetype');
+}
 
-#title {
-    color: brown;
+/* General Styles */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+/* Title Styling */
+h1#title {
+    font-size: 3.5rem;
     text-align: center;
-    font-size: 4em;
-    font-size: 2.5rem;
-    text-align: center;
+    color: #3e3e3e;
     padding: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 20px auto;
 }
 
+/* Navigation */
 #navigationn {
-    font-size: 2em;
+    font-size: 2rem;
+    margin: 20px 0;
 }
 
+/* Container Styling */
 #sayings_container {
-    margin: 1em 3em;
+    margin: 40px auto;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
 }
 
+/* List Styling */
 ul {
     list-style-type: none;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+    font-size: 2rem;
+}
+
+li a {
+    text-decoration: none;
+    color: #4a4a4a;
+    padding: 10px 20px;
+    display: block;
+    font-style: italic;
+    transition: all 0.3s ease;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+li a:hover {
+    background-color: #e7e7e7;
+    color: #4a4a4a;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+li a:active {
+    transform: translateY(1px);
+}
+
+/* Image Styling */
 #jesus {
     width: 20em;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
+    margin: 30px auto;
 }
 
-.stoixonOne{
-    font-family: 'copticregular', Times, serif;
+/* Text Styling */
+.stoixonOne {
+    font-family: 'copticregular', Georgia, serif;
     font-size: large;
     font-weight: bold;
 }
 
-.stoixonTwo{
-    font-family: Times, serif;
+.stoixonTwo {
+    font-family: Georgia, serif;
     color: brown;
     font-size: x-large;
     font-weight: 200;
     margin: 1% 1% 6% 1%;
     padding: 0% 0% 2% 0%;
     font-style: italic;
-    border-bottom: 1px solid #3e3e3e; /* Adds a solid bottom border */
+    border-bottom: 1px solid #3e3e3e;
 }
 
+/* Links */
 a {
     text-decoration: none;
     cursor: pointer;
     color: brown;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #777;
+    font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    h1#title {
+        font-size: 3rem;
+    }
+
+    li {
+        font-size: 1.8rem;
+    }
+
+    li a {
+        max-width: 100%;
+    }
 }
