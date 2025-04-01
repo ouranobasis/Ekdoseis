@@ -31,6 +31,10 @@ h1#title {
     margin: 20px auto;
 }
 
+#text {
+    padding: 15px;
+}
+
 /* Navigation - Main Menu */
 #navigationn {
     font-size: 2rem;
