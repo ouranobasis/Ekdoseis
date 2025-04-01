@@ -57,7 +57,12 @@ h1#title {
 
 
 #text {
-    padding: 15px;
+    font-family: Times, serif;
+    color: #333;
+    font-size: x-large;
+    font-weight: 200;
+    margin: 1%;
+    font-style: italic;
 }
 
 /* Navigation - Main Menu */
