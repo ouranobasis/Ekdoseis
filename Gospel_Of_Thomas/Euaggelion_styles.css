@@ -50,6 +50,7 @@ ul {
     font-size: x-large;
     font-weight: 200;
     margin: 1% 1% 6% 1%;
+    padding: 0% 0% 2% 0%;
     font-style: italic;
     border-bottom: 1px solid #3e3e3e; /* Adds a solid bottom border */
 }
