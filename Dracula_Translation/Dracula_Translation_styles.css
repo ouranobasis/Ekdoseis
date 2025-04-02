@@ -44,7 +44,7 @@ h2#description {
 }
 
 #dracula_outline {
-    width: 16em;
+    width: 14em;
     height: 26em;
     display: block;
     margin-left: auto;
@@ -52,7 +52,7 @@ h2#description {
 }
 
 #dracula {
-    width: 16em;
+    width: 14em;
     border-radius: 50%; 
     margin: .02em;
     padding: .5em;
