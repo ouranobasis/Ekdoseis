@@ -3,68 +3,7 @@
   <head>
     <meta http-equiv="Cache-control" content="NO-CACHE">
     <link rel="stylesheet" href="Dracula_Translation_styles.css">
-    <style>
-      .custom-dropdown {
-          position: relative;
-          display: inline-block;
-          font-size: 1.5rem;
-          font-family: Times, serif;
-          color: brown;
-          background-color: #f0f0f0;
-          border: 2px solid brown;
-          border-radius: 5px;
-          padding: 10px;
-          cursor: pointer;
-          text-align: center;
-          width: 80%;
-          max-width: 500px;
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          position: relative;
-      }
-      
-      .custom-dropdown::after {
-          content: '\25BC'; /* Downward arrow */
-          font-size: 1rem;
-          color: brown;
-          margin-left: 10px;
-      }
-      
-      .dropdown-menu {
-          display: none;
-          position: absolute;
-          background-color: #e0e0e0;
-          border: 2px solid brown;
-          border-radius: 5px;
-          width: 100%;
-          left: 0;
-          top: 100%;
-          z-index: 10;
-          max-height: 150px;
-          overflow-y: auto;
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      }
-      
-      .dropdown-menu div {
-          padding: 10px;
-	  border-top: 1px solid brown;
-          text-align: center;
-          color: #333;
-          cursor: pointer;
-          transition: background 0.3s ease;
-          display: flex;
-          justify-content: center;
-      }
-      
-      .dropdown-menu div:hover {
-          background-color: #c4c4c4;
-          color: black;
-      }
-      
-      .custom-dropdown.active .dropdown-menu {
-          display: block;
-      }
+    <style>      
     </style>
   </head>
   <body>
@@ -81,7 +20,7 @@
         <span id="dropdownText">ἡ ἀρχὴ τῆς μεταφράσεως τοῦ μύθου Δρακοῦλου συγγεγραμμένου ὑπὸ τοῦ Βρὰμ Στόκηρ</span>
         <div class="dropdown-menu">
             <div onclick="selectOption(this, '01 - κεφαλαίον εἶς τῆς ἀρχαίας μεταφράσεως τοῦ Δρακοῦλου.txt')">ἡ ἀρχὴ τῆς μεταφράσεως τοῦ μύθου Δρακοῦλου συγγεγραμμένου ὑπὸ τοῦ Βρὰμ Στόκηρ</div>
-            <div onclick="selectOption(this, '02 - κεφαλαίον δύο τῆς ἀρχαίας μεταφράσεως τοῦ Δρακοῦλου.txt')">κεφαλαίον δύο τῆς ἀρχαίας μεταφράσεως τοῦ Δρακοῦλου</div>
+            <div onclick="selectOption(this, '02 - κεφαλαίον δύο τῆς ἀρχαίας μεταφράσεως τοῦ Δρακοῦλου.txt')">τὸ δεύτερον κεφαλαίον τῆς μεταφράσεως τοῦ μύθου Δρακοῦλου συγγεγραμμένου ὑπὸ τοῦ Βρὰμ Στόκηρ</div>
         </div>
     </div>
     
