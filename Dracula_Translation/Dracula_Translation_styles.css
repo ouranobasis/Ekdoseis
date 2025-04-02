@@ -25,10 +25,11 @@ h1#title {
     margin: 20px auto;
 }
 
-h3#description {
-    font-size: 3.5rem;
+h2#description {
+    font-size: 1.5rem;
     text-align: center;
-    color: #3e3e3e;
+    color: Brown;
+    margin: .5em .2em;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
