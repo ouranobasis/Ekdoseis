@@ -1,21 +1,90 @@
 <!DOCTYPE html>
 <html>
   <head>
-	  <meta http-equiv="Cache-control" content="NO-CACHE">
+    <meta http-equiv="Cache-control" content="NO-CACHE">
     <link rel="stylesheet" href="Dracula_Translation_styles.css">
+    <style>
+      .custom-dropdown {
+          position: relative;
+          display: inline-block;
+          font-size: 1.5rem;
+          font-family: Times, serif;
+          color: brown;
+          background-color: #f0f0f0;
+          border: 2px solid brown;
+          border-radius: 5px;
+          padding: 10px;
+          cursor: pointer;
+          text-align: center;
+          width: 80%;
+          max-width: 500px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          position: relative;
+      }
+      
+      .custom-dropdown::after {
+          content: '\25BC'; /* Downward arrow */
+          font-size: 1rem;
+          color: brown;
+          margin-left: 10px;
+      }
+      
+      .dropdown-menu {
+          display: none;
+          position: absolute;
+          background-color: #e0e0e0;
+          border: 2px solid brown;
+          border-radius: 5px;
+          width: 100%;
+          left: 0;
+          top: 100%;
+          z-index: 10;
+          max-height: 150px;
+          overflow-y: auto;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      
+      .dropdown-menu div {
+          padding: 10px;
+          text-align: center;
+          color: #333;
+          cursor: pointer;
+          transition: background 0.3s ease;
+          display: flex;
+          justify-content: center;
+      }
+      
+      .dropdown-menu div:hover {
+          background-color: #c4c4c4;
+          color: black;
+      }
+      
+      .custom-dropdown.active .dropdown-menu {
+          display: block;
+      }
+    </style>
   </head>
   <body>
-      <a id="navigationn" href="../index.html">Main Menu</a>
-      <div id="dracula_container">
-        <div id="dracula_outline">
-          <img id="dracula" src="Dracula.png" alt="dracula">
-        </div>
+    <a id="navigationn" href="../index.html">Main Menu</a>
+    <div id="dracula_container">
+      <div id="dracula_outline">
+        <img id="dracula" src="Dracula.png" alt="dracula">
       </div>
+    </div>
 
-      <H1 id="title">Η ΜΕΤΑΦΡΑΣΙΣ ΔΡΑΚΟΥΛΟΥ</H1>
-      <H2 id="description">ἡ ἀρχὴ τῆς μεταφράσεως τοῦ μύθου Δρακοῦλου συγγεγραμμένου ὑπὸ τοῦ Βρὰμ Στόκηρ</H2>
-      <div id="text">         
-      </div>
+    <h1 id="title">Η ΜΕΤΑΦΡΑΣΙΣ ΔΡΑΚΟΥΛΟΥ</h1>
+    
+    <div class="custom-dropdown" id="customDropdown">
+        <span id="dropdownText">ἡ ἀρχὴ τῆς μεταφράσεως τοῦ μύθου Δρακοῦλου συγγεγραμμένου ὑπὸ τοῦ Βρὰμ Στόκηρ</span>
+        <div class="dropdown-menu">
+            <div onclick="selectOption(this, '01 - κεφαλαίον εἶς τῆς ἀρχαίας μεταφράσεως τοῦ Δρακοῦλου.txt')">ἡ ἀρχὴ τῆς μεταφράσεως τοῦ μύθου Δρακοῦλου συγγεγραμμένου ὑπὸ τοῦ Βρὰμ Στόκηρ</div>
+            <div onclick="selectOption(this, '02 - κεφαλαίον δύο τῆς ἀρχαίας μεταφράσεως τοῦ Δρακοῦλου.txt')">κεφαλαίον δύο τῆς ἀρχαίας μεταφράσεως τοῦ Δρακοῦλου</div>
+        </div>
+    </div>
+    
+    <div id="text"></div>
 
     <script>
       function loadFile(filePath) {
@@ -23,14 +92,28 @@
         var xmlhttp = new XMLHttpRequest();
         xmlhttp.open("GET", filePath, false);
         xmlhttp.send();
-        if (xmlhttp.status==200) {
+        if (xmlhttp.status == 200) {
           result = xmlhttp.responseText;
         }
         return result;
       }
 
-      var myStuff = loadFile("01 - κεφαλαίον εἶς τῆς ἀρχαίας μεταφράσεως τοῦ Δρακοῦλου.txt");
-      document.getElementById("text").innerText = myStuff;
+      function selectOption(element, filePath) {
+          document.getElementById("dropdownText").innerText = element.innerText;
+          document.getElementById("customDropdown").classList.remove("active");
+          document.getElementById("text").innerText = loadFile(filePath);
+      }
+      
+      document.getElementById("customDropdown").addEventListener("click", function() {
+          this.classList.toggle("active");
+      });
+      
+      document.addEventListener("click", function(event) {
+          var dropdown = document.getElementById("customDropdown");
+          if (!dropdown.contains(event.target)) {
+              dropdown.classList.remove("active");
+          }
+      });
     </script>
   </body>
 </html>
