@@ -87,6 +87,12 @@
     <div id="text"></div>
 
     <script>
+      // Load default text when page loads
+      window.onload = function() {
+        var defaultText = loadFile("01 - κεφαλαίον εἶς τῆς ἀρχαίας μεταφράσεως τοῦ Δρακοῦλου.txt");
+        document.getElementById("text").innerText = defaultText;
+      };
+
       function loadFile(filePath) {
         var result = null;
         var xmlhttp = new XMLHttpRequest();
