@@ -26,7 +26,7 @@ h1#title {
 }
 
 h2#description {
-    font-size: 1.3rem;
+    font-size: 1%;
     text-align: center;
     color: Brown;
     margin: .5rem 1rem;
@@ -65,7 +65,7 @@ h2#description {
     color: #333;
     font-size: x-large;
     font-weight: 200;
-    margin: 1rem 5rem;
+    margin: 3% 3%;
     font-style: italic;
 }
 
