@@ -67,11 +67,12 @@ h2#description {
 /* Navigation - Main Menu */
 #navigationn {
     font-size: 2rem;
-    margin: 20px 0;
+    margin: 20px 20px;
     display: flex;
     gap: 15px;
-    justify-content: center;
+    justify-content: flex-start;  /* aligns items to the left inside the flex container */
     flex-wrap: wrap;
+    align-self: flex-start;       /* this aligns the item itself to the left */
 }
 
 /* Links */
@@ -159,7 +160,7 @@ a {
 
     #navigationn {
         flex-direction: column;
-        align-items: center;
+        align-items: left;
     }
 
     #navigationn a {
