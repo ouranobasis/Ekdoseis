@@ -1,30 +1,31 @@
-Τὸ εὐαγγέλιον τοῦ Ματθαίου
-မတိဝုလိခိတ မင်္ဂလဝုတ္တန္တော
-मतिवुलिखित मङ्गलवुत्तन्तो
-mativulikhita maṅgalavuttanto
-blessed utterances written by matthew
+#Title
+@Τὸ εὐαγγέλιον τοῦ Ματθαίου
+$မတိဝုလိခိတ မင်္ဂလဝုတ္တန္တော
+&मतिवुलिखित मङ्गलवुत्तन्तो
+%mativulikhita maṅgalavuttanto
+~blessed utterances written by matthew
 
-Verse 1
-Βίβλος γενέσεως Ἰησοῦ Χριστοῦ υἱοῦ Δαυὶδ υἱοῦ Ἀβραάμ. 
-အာဝြဟာမတြဇ ဒဝုဒတြဇ ယိသု ကြိသ္တု သန္တတိ လေခနမ္ ဣဒန္တိ။
-आव्रहामत्रज दवुदत्रज यिसु क्रिस्तु सन्तति लेखनम् इदन्ति
-ābrahāmatraja davudatraja yisu kristu santati-lekhanam idan ti
-This is the record of the lineage of Yesu Kristu born of Abraham born of David.
+#Verse 1
+@Βίβλος γενέσεως Ἰησοῦ Χριστοῦ υἱοῦ Δαυὶδ υἱοῦ Ἀβραάμ. 
+$အာဝြဟာမတြဇ ဒဝုဒတြဇ ယိသု ကြိသ္တု သန္တတိ လေခနမ္ ဣဒန္တိ။
+&आव्रहामत्रज दवुदत्रज यिसु क्रिस्तु सन्तति लेखनम् इदन्ति
+%ābrahāmatraja davudatraja yisu kristu santati-lekhanam idan ti
+~This is the record of the lineage of Yesu Kristu born of Abraham born of David.
 note: santati-lekhanam: record of lineage this. Tappurisasamāsa
 
-Verse 2
-Ἀβραὰμ ἐγέννησεν τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησεν τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησεν τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ, 
-အာဗြဟမော ယိသာကမ္ အဇနေသိ ယိသကော ယကုဗမ္ အဇနေသိ ယကုဗော ယုဒုဉ္စ သကာဘာတရော စာဇနေသိ။
-आब्रहमो यिसाकम् अजनेसि यिसको यकुबम् अजनेसि यकुबो युदुञ्च सकाभातरो चाजनेसि ।
-Ābrahamo Υisākam ajanesi, Υisako Υakubam ajanesi Υakubo Υuduñca sakābhātaro cājanesi.
-Abraham Yisako engendered, yisako jacob engendered and engendered jacob juda and his brother.
+#Verse 2
+@Ἀβραὰμ ἐγέννησεν τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησεν τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησεν τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ, 
+$အာဗြဟမော ယိသာကမ္ အဇနေသိ ယိသကော ယကုဗမ္ အဇနေသိ ယကုဗော ယုဒုဉ္စ သကာဘာတရော စာဇနေသိ။
+&आब्रहमो यिसाकम् अजनेसि यिसको यकुबम् अजनेसि यकुबो युदुञ्च सकाभातरो चाजनेसि ।
+%Ābrahamo Υisākam ajanesi, Υisako Υakubam ajanesi Υakubo Υuduñca sakābhātaro cājanesi.
+~Abraham Yisako engendered, yisako jacob engendered and engendered jacob juda and his brother.
 
-Verse 3
-Ἰούδας δὲ ἐγέννησεν τὸν Φαρὲς καὶ τὸν Ζαρὰ ἐκ τῆς Θάμαρ, Φαρὲς δὲ ἐγέννησεν τὸν Ἑσρώμ, Ἑσρὼμ δὲ ἐγέννησεν τὸν Ἀράμ, 
-ယုဒေါ ဖရသဉ္စ သရကဉ္စ တမရာကုစ္ဆိယမဇနေသိ။ ဖရသော ဧသရောဏဉ္စ စာဇနေသိ။ ဧသရောဏော ရာမမဇနေသိ။
-युदो फरसञ् च सरकञ् च तमरा कुच्छियम् अजनेसि. फरसो एसरोणम् अजनेसि. एस्रोणो राम अजनेसि.
-Yudo Pharasañ ca Sarakañ ca Tamarā kucchiyam ajanesi. Pharaso Esaroṇam ajanesi. Esroṇo Rāma ajanesi.
-And Juda begat Phares and Sarah in the womb of Tamar. Pares begot Esaron. Esaron begot Rama.
+#Verse 3
+@Ἰούδας δὲ ἐγέννησεν τὸν Φαρὲς καὶ τὸν Ζαρὰ ἐκ τῆς Θάμαρ, Φαρὲς δὲ ἐγέννησεν τὸν Ἑσρώμ, Ἑσρὼμ δὲ ἐγέννησεν τὸν Ἀράμ, 
+$ယုဒေါ ဖရသဉ္စ သရကဉ္စ တမရာကုစ္ဆိယမဇနေသိ။ ဖရသော ဧသရောဏဉ္စ စာဇနေသိ။ ဧသရောဏော ရာမမဇနေသိ။
+&युदो फरसञ् च सरकञ् च तमरा कुच्छियम् अजनेसि. फरसो एसरोणम् अजनेसि. एस्रोणो राम अजनेसि.
+%Yudo Pharasañ ca Sarakañ ca Tamarā kucchiyam ajanesi. Pharaso Esaroṇam ajanesi. Esroṇo Rāma ajanesi.
+~And Juda begat Phares and Sarah in the womb of Tamar. Pares begot Esaron. Esaron begot Rama.
 
 Verse 4
 Ἀρὰμ δὲ ἐγέννησεν τὸν Ἀμιναδάβ, Ἀμιναδὰβ δὲ ἐγέννησεν τὸν Ναασσών, Ναασσὼν δὲ ἐγέννησεν τὸν Σαλμών, 
