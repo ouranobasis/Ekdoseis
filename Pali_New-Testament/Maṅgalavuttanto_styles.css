@@ -48,7 +48,7 @@ a:hover {
 #dracula_outline {
     height: 100%;
     display: block;
-    border: 2px dashed #8b0000; /* Dark red vintage accent ring */
+    border: 2px solid #8b0000; /* Dark red vintage accent ring */
     padding: 8px;
     border-radius: 50%;
 }
