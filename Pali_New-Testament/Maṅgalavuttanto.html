@@ -78,36 +78,31 @@
 
             var li = document.createElement('li');
 
-            // Check the starting character to categorize the line
-            if (trimmedLine.startsWith('Verse')) {
-              // This is the header (e.g., "Verse 1")
-              var h3 = document.createElement('h3');
-              h3.innerText = '#' + trimmedLine;
-              verseWrapper.appendChild(h3);
-              return; // Don't add header to the <ul>
-            } else if (trimmedLine.startsWith('@')) {
-              li.className = 'greek-text';
-              li.innerText = trimmedLine;
-            } else if (trimmedLine.startsWith('$')) {
-              li.className = 'burmese-text';
-              li.innerText = trimmedLine;
-            } else if (trimmedLine.startsWith('&')) {
-              li.className = 'devanagari-text';
-              li.innerText = trimmedLine;
-            } else if (trimmedLine.startsWith('%')) {
-              li.className = 'romanized-text';
-              li.innerText = trimmedLine;
-            } else if (trimmedLine.startsWith('~')) {
-              li.className = 'english-translation';
-              li.innerText = trimmedLine;
-            } else if (trimmedLine.toLowerCase().startsWith('note:')) {
-              li.className = 'verse-note';
-              li.innerText = trimmedLine;
-            } else {
-              // Fallback for any standard text lines
-              li.className = 'default-text';
-              li.innerText = trimmedLine;
-            }
+           // 3. Match line markers, strip prefix, and append <li> element
+			var li = document.createElement('li');
+			
+			if (trimmedLine.startsWith('@')) {
+			li.className = 'greek-text';
+			li.innerText = trimmedLine.replace(/^@\s*/, ''); // Strips '@' and any spaces after it
+			} else if (trimmedLine.startsWith('$')) {
+			li.className = 'burmese-text';
+			li.innerText = trimmedLine.replace(/^\$\s*/, ''); // Strips '$' and any spaces after it
+			} else if (trimmedLine.startsWith('&')) {
+			li.className = 'devanagari-text';
+			li.innerText = trimmedLine.replace(/^&\s*/, ''); // Strips '&' and any spaces after it
+			} else if (trimmedLine.startsWith('%')) {
+			li.className = 'romanized-text';
+			li.innerText = trimmedLine.replace(/^%\s*/, ''); // Strips '%' and any spaces after it
+			} else if (trimmedLine.startsWith('~')) {
+			li.className = 'english-translation';
+			li.innerText = trimmedLine.replace(/^~\s*/, ''); // Strips '~' and any spaces after it
+			} else if (/^note:/i.test(trimmedLine)) {
+			li.className = 'verse-note';
+			li.innerText = trimmedLine.replace(/^note:\s*/i, ''); // Strips "note:" and spaces, leaving just the text
+			} else {
+			li.className = 'default-text';
+			li.innerText = trimmedLine;
+			}
 
             ul.appendChild(li);
           });
