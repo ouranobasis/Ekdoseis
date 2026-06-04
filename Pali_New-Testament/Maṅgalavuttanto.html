@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta http-equiv="Cache-control" content="NO-CACHE">
-    <link rel="stylesheet" href="Dracula_Translation_styles.css">
+    <link rel="stylesheet" href="Maṅgalavuttanto_styles.css">
     <style>      
     </style>
   </head>
@@ -10,17 +10,17 @@
     <a id="navigationn" href="../index.html">Main Menu</a>
     <div id="dracula_container">
       <div id="dracula_outline">
-        <img id="dracula" src="Dracula.png" alt="dracula">
+        <img id="dracula" src="Pali_Jesus.png" alt="dracula">
       </div>
     </div>
 
-    <h1 id="title">Η ΔΙΗΓΗΣΙΣ ΤΟΥ ΔΡΑΚΟΥΛΟΥ</h1>
+    <h1 id="title">mativulikhita maṅgalavuttanto</h1>
     
     <div class="custom-dropdown" id="customDropdown">
-        <span id="dropdownText">κεφαλαίον εἷς</span>
+        <span id="dropdownText">pattamo paricchedo</span>
         <div class="dropdown-menu">
-            <div onclick="selectOption(this, 'Chapter 1 - mativulikhita maṅgalavuttanto.txt')">κεφαλαίον εἷς</div>
-            <div onclick="selectOption(this, 'Chapter 2 - mativulikhita maṅgalavuttanto.txt')">κεφαλαίον δύο</div>
+            <div onclick="selectOption(this, 'Chapter 01 - mativulikhita maṅgalavuttanto.txt')">patthamo paricchedo</div>
+            <div onclick="selectOption(this, 'Chapter 02 - mativulikhita maṅgalavuttanto.txt')">dutiyo paricchedo</div>
         </div>
     </div>
     
@@ -29,10 +29,10 @@
     <script>
       // Load default text when page loads
       window.onload = function() {
-        var defaultText = loadFile("Chapter 1 - mativulikhita maṅgalavuttanto.txt");
-        document.getElementById("text").innerText = defaultText;
+        loadFileAndParse("Chapter 01 - mativulikhita maṅgalavuttanto.txt");
       };
 
+      // Synchronous file loader (kept from your original code)
       function loadFile(filePath) {
         var result = null;
         var xmlhttp = new XMLHttpRequest();
@@ -44,10 +44,83 @@
         return result;
       }
 
+      // Core parser logic
+      function loadFileAndParse(filePath) {
+        var rawText = loadFile(filePath);
+        var container = document.getElementById("text");
+        
+        // Clear previous content
+        container.innerHTML = "";
+
+        if (!rawText) {
+          container.innerHTML = "<p>Error loading file or file is empty.</p>";
+          return;
+        }
+
+        // Split the text into separate blocks based on the "#" symbol (each verse)
+        // We filter out any empty chunks caused by the very first split
+        var blocks = rawText.split('#').filter(Boolean);
+
+        blocks.forEach(function(block) {
+          // Split the block into individual lines
+          var lines = block.split('\n');
+          
+          // Create a wrapper container for this specific verse group
+          var verseWrapper = document.createElement('div');
+          verseWrapper.className = 'verse-block';
+
+          // Create an unordered list to hold the lines
+          var ul = document.createElement('ul');
+
+          lines.forEach(function(line) {
+            var trimmedLine = line.trim();
+            if (!trimmedLine) return; // Skip empty lines
+
+            var li = document.createElement('li');
+
+           // 3. Match line markers, strip prefix, and append <li> element
+			var li = document.createElement('li');
+			
+			if (trimmedLine.startsWith('@')) {
+			li.className = 'greek-text';
+			li.innerText = trimmedLine.replace(/^@\s*/, ''); // Strips '@' and any spaces after it
+			} else if (trimmedLine.startsWith('$')) {
+			li.className = 'burmese-text';
+			li.innerText = trimmedLine.replace(/^\$\s*/, ''); // Strips '$' and any spaces after it
+			} else if (trimmedLine.startsWith('&')) {
+			li.className = 'devanagari-text';
+			li.innerText = trimmedLine.replace(/^&\s*/, ''); // Strips '&' and any spaces after it
+			} else if (trimmedLine.startsWith('%')) {
+			li.className = 'romanized-text';
+			li.innerText = trimmedLine.replace(/^%\s*/, ''); // Strips '%' and any spaces after it
+			} else if (trimmedLine.startsWith('~')) {
+			li.className = 'english-translation';
+			li.innerText = trimmedLine.replace(/^~\s*/, ''); // Strips '~' and any spaces after it
+			} else if (/^note:/i.test(trimmedLine)) {
+			li.className = 'verse-note';
+			li.innerText = trimmedLine.replace(/^note:\s*/i, ''); // Strips "note:" and spaces, leaving just the text
+			} else {
+			li.className = 'default-text';
+			li.innerText = trimmedLine;
+			}
+
+            ul.appendChild(li);
+          });
+
+          // Only append the list if it actually contains items
+          if (ul.children.length > 0) {
+            verseWrapper.appendChild(ul);
+          }
+          
+          container.appendChild(verseWrapper);
+        });
+      }
+
+      // Dropdown menu handling
       function selectOption(element, filePath) {
           document.getElementById("dropdownText").innerText = element.innerText;
           document.getElementById("customDropdown").classList.remove("active");
-          document.getElementById("text").innerText = loadFile(filePath);
+          loadFileAndParse(filePath);
       }
       
       document.getElementById("customDropdown").addEventListener("click", function() {
