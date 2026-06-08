@@ -130,7 +130,7 @@ Note: devoditaṃ = deva + udita: spoken by god; avhayati: calls, summons
 @Τότε Ἡρῴδης ἰδὼν ὅτι ἐνεπαίχθη ὑπὸ τῶν μάγων ἐθυμώθη λίαν καὶ ἀποστείλας ἀνεῖλεν πάντας τοὺς παῖδας τοὺς ἐν Βηθλέεμ καὶ ἐν πάσιν τοῖς ὁρίοις αὐτῆς ἀπὸ διετοῦς καὶ κατωτέρω κατὰ τὸν χρόνον ὃν ἠκρίβωσεν παρὰ τῶν μάγων
 $Burmese ==========================================
 &Devanagari =======================================
-%transcribe tadā Herodo budhehi vañcitatthaṃ ñatvā ativiya kujjhitvā budhe vucchita kālapamānato bītala
+%transcribe tadā Herodo budhehi vañcitatthaṃ ñatvā ativiya kujjhitvā budhe pucchita kālapamānato Bītalakhame ca tattha sabbasimaatucadvevabh
 ~translate ========================================
 Note: 
 
