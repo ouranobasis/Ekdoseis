@@ -128,11 +128,11 @@ Note: devoditaṃ = deva + udita: spoken by god; avhayati: calls, summons
 
 #Verse 16
 @Τότε Ἡρῴδης ἰδὼν ὅτι ἐνεπαίχθη ὑπὸ τῶν μάγων ἐθυμώθη λίαν καὶ ἀποστείλας ἀνεῖλεν πάντας τοὺς παῖδας τοὺς ἐν Βηθλέεμ καὶ ἐν πάσιν τοῖς ὁρίοις αὐτῆς ἀπὸ διετοῦς καὶ κατωτέρω κατὰ τὸν χρόνον ὃν ἠκρίβωσεν παρὰ τῶν μάγων
-$Burmese ==========================================
-&Devanagari =======================================
-%transcribe tadā Herodo budhehi vañcitatthaṃ ñatvā ativiya kujjhitvā budhe pucchita kālapamānato Bītalakhame ca tattha sabbasimaatucadvevabh
-~translate ========================================
-Note: 
+$တဒါ ဟေရောဒေါ ဗုဒ္ဓေဟိ ဝဉ္စိတတ္ထံ ဉတ်ဝါ အတိဝိယ ကုဇ္ဈိတွာ၊ ဗုဓေ ပုစ္ဆိတွာ ကာလပမာဏတော ဗီတလခမေ စ တတ္ထ သဗ္ဗသီမာသု စ၊ ဒွေးဝဿိကတတော ဦနကသဗ္ဗဗာလကေ ဒူတေ ပေသေတွာ ဃာတာပေသိ ။
+&तदा हेरोदो बुद्धेहि वञ्चितत्थं ञत्वा अतिविय कुज्झित्वा, बुधे पुच्छित्वा कालपमाणतो बीतलखमे च तत्थ सब्बसीमासु च, द्वेवस्सिकततो ऊनकसब्बबाळके दूते पेसेत्वा घातापेसि ।
+%tadā Herodo budhehi vañcitatthaṃ ñatvā ativiya kujjhitvā budhe pucchitvā kālapamānato Bītalakhame ca tattha sabbasīmāsu ca dvevassikatato ūnaka sabbabālake dute pesetvā ghātāpesi
+~Then Herod having known the deceptive intent, having become exceedingly angry, having asked the wisemen of the date both in Bitalakhame and there in all the borders, from two years attained less all boys having sent a messenger, he killed.
+Note: sabbasīmāsu = sabba:all + sīmā:border; vañcitatthaṃ = vañcita:deceptive + attha:purpose intent; pucchita must be pucchitvā
 
 #Verse 17
 @τότε ἐπληρώθη τὸ ῥηθὲν ὑπὸ Ἰερεμίου τοῦ προφήτου λέγοντος
