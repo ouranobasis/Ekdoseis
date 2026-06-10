@@ -138,7 +138,7 @@ Note: sabbasīmāsu = sabba:all + sīmā:border; vañcitatthaṃ = vañcita:dece
 @τότε ἐπληρώθη τὸ ῥηθὲν ὑπὸ Ἰερεμίου τοῦ προφήτου λέγοντος
 $Burmese ==========================================
 &Devanagari =======================================
-%transcribe =======================================
+%transcribe yiramisaanaagatavattaarodititadaa paccat
 ~translate ========================================
 Note: 
 
