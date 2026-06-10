@@ -136,17 +136,17 @@ Note: sabbasīmāsu = sabba:all + sīmā:border; vañcitatthaṃ = vañcita:dece
 
 #Verse 17
 @τότε ἐπληρώθη τὸ ῥηθὲν ὑπὸ Ἰερεμίου τοῦ προφήτου λέγοντος
-$Burmese ==========================================
-&Devanagari =======================================
-%transcribe yiramisaanaagatavattaarodititadaa paccat
-~translate ========================================
-Note: 
+$ယိရမိဟာနာဂတဝတ္တာရောဒိတံ တဒါ ပစ္စက္ခာ အဟောသိ ။
+&यिरमिहानागतवत्तारोदितं तदा पच्चक्खा अहोसि ।
+%yiramihānāgatavattāroditaṃ tadā paccakkhā ahosi.
+~the utterance of Yiramiho then was self evident
+Note: Yiramihena anāgatavattārā uditaṃ that which was uttered by the prophet Yiramiho; paccakkhā pati + akkha: against the eye
 
 #Verse 18
 @Φωνὴ ἐν Ῥαμὰ ἠκούσθη θρῆνος καὶ κλαυθμὸς καὶ ὀδυρμὸς πολύς· Ῥαχὴλ κλαίουσα τὰ τέκνα αὐτῆς καὶ οὐκ ἤθελεν παρακληθῆναι ὅτι οὐκ εἰσίν
 $Burmese ==========================================
 &Devanagari =======================================
-%transcribe =======================================
+%transcribe kathi raamaayaṃ vilaapakandanamauadarodanasaddobulotiraadetasakamutthenissaaytandanti
 ~translate ========================================
 Note: 
 
@@ -186,6 +186,6 @@ Note:
 @καὶ ἐλθὼν κατῴκησεν εἰς πόλιν λεγομένην Ναζαρέτ· ὅπως πληρωθῇ τὸ ῥηθὲν διὰ τῶν προφητῶν ὅτι Ναζωραῖος κληθήσεται
 $အာဂန္တွာ နာဇရက် နာမ နဂရေ ဝသိ။ ကိန္တိ သော နာဇရက် နာမ တိ ဝတ္တဗ္ဗောတိ အနာဂတဝတ္တာရေဟိ ဝုတ္တံ သဗ္ဗံ သက္ကစ္စံ ယထာတိ။
 & Devanagari ======================================
-%āgantvā nājarak nāma nagare vasi. kinti so nājarak nāma ti vattabboti anāgatavattārehi vuttaṃ sabbaṃ sakkaccaṃ yathāti.
-~And he came and dwelt in a city called Nazareth: that it might be fulfilled which was spoken by the prophets, He shall be called a Nazarene.
+%nāsare tadaa ....... nagar  ....  vasi. kiṃ so nāsareno .....nāma ti vattabboti anāgatavattārehi vuttaṃ sabbaṃ sakkaccaṃ yathāti.
+~translate.
 Note:
