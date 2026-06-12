@@ -176,8 +176,8 @@ Note:
 
 #Verse 22
 @ἀκούσας δὲ ὅτι Ἀρχέλαος βασιλεύει ἐπὶ τῆς Ἰουδαίας ἀντὶ Ἡρῴδου τοῦ πατρὸς αὐτοῦ ἐφοβήθη ἐκεῖ ἀπελθεῖν· χρηματισθεὶς δὲ κατ' ὄναρ ἀνεχώρησεν εἰς τὰ μέρη τῆς Γαλιλαίας
-$ကိန္တု သော အခေလာယော ယုဒါယေ သကပိတုဟေရောဒရာဇပဒေ တိဋ္ဌတီ တိ သုတွာ၊ တတ္ထ ဂန္တုံ ဘာယီ တိ။ အထ သုပိနေန ဉာပိတော သော ဂါလိလပဒေသံ ဥပါဂန္တွာ ။
-&किन्तु सो अखेलायो युदाये सकपितुहेरोदराजपदे तिट्ठती ति सुत्वा, तत्थ गन्तुं भायी ति। अथ सुपिनेन ज्ञापितो सो गालिलपदेसं उपागन्त्वा ।
+$ကိန္တု သော အခေလာယော ယုဒါယေ သကပိတုဟေရောဒရာဇပဒေ တိဋ္ဌတီ တိ သုတွာ၊ တတ္ထ ဂန္တုံ ဘာယီ တိ။ အထ သုပိနေန ဉာပိတော သော ဂါလိလပဒေသံ ဥပါဂန္တွာ ..
+&किन्तु सो अखेलायो युदाये सकपितुहेरोदराजपदे तिट्ठती ति सुत्वा, तत्थ गन्तुं भायी ति। अथ सुपिनेन ज्ञापितो सो गालिलपदेसं उपागन्त्वा ..
 %kintu so Ākhelāyaso Yudāya sakapituherodarājapade tiṭṭatīti sutvā, tattha gantuṃ bhayīti. atha supinena ñapito so galilapadesaṃ upāgantvā...
 ~however, he hearing that Akhelayaso stood in the place of king herod his father in Judaya, he feared to go there. then in a dream he was informed, having gone to the land of Galilee...
 Note: kiṃ tu: from Sanskrit still, nevertheless
