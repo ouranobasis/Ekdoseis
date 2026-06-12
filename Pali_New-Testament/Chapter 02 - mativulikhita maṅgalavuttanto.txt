@@ -171,21 +171,21 @@ Note: gavesitā: gavesantā; kiṃ: is rhetorical "why?" and the reason is suppl
 $သော တု ဥဋ္ဌာယ ဗာလကဏ္စ သကမာတရဉ္စ အာဒါယ ယိသရာလဒေသံ အာဂမီတိ ။
 &सो तु उट्ठाय बालकण्च सकमातरञ्च आदाय यिसरालदेसं आगमीति ।
 %so tu uṭṭhāya bālakaṇca sakamātarañca ādāya yisarāladesaṃ āgamīti.
-~Then he having arisen and taken the child and his mother 
+~Then he having arisen and taken the child and his mother went to the land of Isreal.
 Note:
 
 #Verse 22
 @ἀκούσας δὲ ὅτι Ἀρχέλαος βασιλεύει ἐπὶ τῆς Ἰουδαίας ἀντὶ Ἡρῴδου τοῦ πατρὸς αὐτοῦ ἐφοβήθη ἐκεῖ ἀπελθεῖν· χρηματισθεὶς δὲ κατ' ὄναρ ἀνεχώρησεν εἰς τὰ μέρη τῆς Γαλιλαίας
-$Burmese ==========================================
-&Devanagari =======================================
-%transcribe =======================================
-~translate ========================================
-Note:
+$ကိန္တု သော အခေလာယော ယုဒါယေ သကပိတုဟေရောဒရာဇပဒေ တိဋ္ဌတီ တိ သုတွာ၊ တတ္ထ ဂန္တုံ ဘာယီ တိ။ အထ သုပိနေန ဉာပိတော သော ဂါလိလပဒေသံ ဥပါဂန္တွာ ။
+&किन्तु सो अखेलायो युदाये सकपितुहेरोदराजपदे तिट्ठती ति सुत्वा, तत्थ गन्तुं भायी ति। अथ सुपिनेन ज्ञापितो सो गालिलपदेसं उपागन्त्वा ।
+%kintu so Ākhelāyaso Yudāya sakapituherodarājapade tiṭṭatīti sutvā, tattha gantuṃ bhayīti. atha supinena ñapito so galilapadesaṃ upāgantvā...
+~however, he hearing that Akhelayaso stood in the place of king herod his father in Judaya, he feared to go there. then in a dream he was informed, having gone to the land of Galilee...
+Note: kiṃ tu: from Sanskrit still, nevertheless
 
 #Verse 23
 @καὶ ἐλθὼν κατῴκησεν εἰς πόλιν λεγομένην Ναζαρέτ· ὅπως πληρωθῇ τὸ ῥηθὲν διὰ τῶν προφητῶν ὅτι Ναζωραῖος κληθήσεται
-$အာဂန္တွာ နာဇရက် နာမ နဂရေ ဝသိ။ ကိန္တိ သော နာဇရက် နာမ တိ ဝတ္တဗ္ဗောတိ အနာဂတဝတ္တာရေဟိ ဝုတ္တံ သဗ္ဗံ သက္ကစ္စံ ယထာတိ။
-& Devanagari ======================================
-%nāsare tadaa ....... nagar  ....  vasi. kiṃ so nāsareno .....nāma ti vattabboti anāgatavattārehi vuttaṃ sabbaṃ sakkaccaṃ yathāti.
-~translate.
-Note:
+$နာသရေတနာမနဂရံ ပတ္တော တတ္ထ ဝသီ. ကိံ သော နာသရေနော တိ ကထီယဿေတိ အနဂတဝတ္တာရောဒိတံ သမ္ပုဏ္ဏတ္တာယာတိ ။
+& नासरेतनामनगरं पत्तो तत्थ वसी. किं सो नासरेनो ति कथीयस्सेति अनगतवत्तारोदितं सम्पुण्णत्तायाति  ।
+%nāsaretanāmanagaram patto tattha vasī. kiṃ so nāsareno ti kathīyasseti anagatavattāroditaṃ sampuṇṇattāyāti.
+~he reached a town called Nasareth, there he lived. Therefore he shall be called a Nazareno. for the fullfillment of the utterance of the prophet. 
+Note: kiṃ: seems to be used strangely as an adverb; sam + puṇṇattā: fullness, fullfilment
