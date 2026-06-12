@@ -144,34 +144,34 @@ Note: Yiramihena anāgatavattārā uditaṃ that which was uttered by the prophe
 
 #Verse 18
 @Φωνὴ ἐν Ῥαμὰ ἠκούσθη θρῆνος καὶ κλαυθμὸς καὶ ὀδυρμὸς πολύς· Ῥαχὴλ κλαίουσα τὰ τέκνα αὐτῆς καὶ οὐκ ἤθελεν παρακληθῆναι ὅτι οὐκ εἰσίν
-$Burmese ==========================================
-&Devanagari =======================================
-%transcribe kathi raamaayaṃ vilaapakandanamauadarodanasaddobulotiraadetasakamutthenissaaytandanti
-~translate ========================================
-Note: 
+$ကထံ ရာမာယံ ဝိလာပကန္ဒနံ မဟာရောဒနသဒ္ဒေါ သုတော တိ။ ရာခေလ သကပုတ္တေ နိဿာယ ကန္ဒန္တီ၊ တေသံ အဘာဝေန အနဿာသိကာ တိ ။
+&कथं रामायं विलापकन्दनं महारोदनसद्दो सुतो ति। राखेल सकपुत्ते निस्साय कन्दन्ती, तेसं अभावेन अनस्सासिका ति ।
+%kathaṃ Rāmāyaṃ vilāpakandanaṃ mahā rodanasaddo suto ti. Rākhela sakaputte nissāya kandantī tesaṃ abhāvena anassāsikā ti
+~how great the wailing and lamentation in Rama, a sound of crying is heard. Rākhela weeping for the sake of her own children is unconforted because of their non-existance.
+Note: vilāpa + kandana: wailing and lamentation; rodanasaddo: sound of crying; nissāya: because of;
 
 #Verse 19
 @Τελευτήσαντος δὲ τοῦ Ἡρῴδου ἰδού, ἄγγελος κυρίου κατ' ὄναρ φαίνεται τῷ Ἰωσὴφ ἐν Αἰγύπτῳ
-$Burmese ==========================================
-&Devanagari =======================================
-%transcribe =======================================
-~translate ========================================
+$အထ ဟေရောဒေ မတေ ဒေဝဒူတော သုပိနေန မိသရေ ယုသဖံ အတ္ထံ ဒဿေတွာ အာဟ ။
+&अथ हेरोदे मते देवदूतो सुपिनेन मिसरे युसफं अत्थं दस्सेत्वा आह ।
+%atha herode mate devaduto supinena Misare Yusapham atthaṃ dassetvā āha
+~Then when Herod Died, a messenger having revealed a purpose to Joseph in Egypt through a dream said.
 Note: 
 
 #Verse 20
 @λέγων, Ἐγερθεὶς παράλαβε τὸ παιδίον καὶ τὴν μητέρα αὐτοῦ καὶ πορεύου εἰς γῆν Ἰσραήλ· τεθνήκασιν γὰρ οἱ ζητοῦντες τὴν ψυχὴν τοῦ παιδίου
-$Burmese ==========================================
-&Devanagari =======================================
-%transcribe =======================================
-~translate ========================================
-Note: 
+$ဥဋ္ဌာဟိ ဗာလကဉ္ စ သကမာတရဉ္ စ အာဒါယ ယိသရာလသဒေသံ ဂစ္ဆ ကိံ ဗာလကပါဏံ ဂဝေသန္တာ မတာ တိ ။
+&उट्ठाहि बालकञ् च सकमातरञ् च आदाय यिसरालसदेसं गच्छ किं बालकपाणं गवेसन्ता मता ति ।
+%uṭṭhāhi bālakañ ca sakamātarañ ca ādāya Yisarālasadesaṃ gaccha kiṃ bālakapāṇaṃ gavesantā matā ti
+~arise the child and his mother having taken, go to Isreal. For those seeking the life of the child are dead.
+Note: gavesitā: gavesantā; kiṃ: is rhetorical "why?" and the reason is supplied.
 
 #Verse 21
 @ὁ δὲ ἐγερθεὶς παρέλαβεν τὸ παιδίον καὶ τὴν μητέρα αὐτοῦ καὶ ἦλθεν εἰς γῆν Ἰσραήλ
-$Burmese ==========================================
-&Devanagari =======================================
-%transcribe =======================================
-~translate ========================================
+$သော တု ဥဋ္ဌာယ ဗာလကဏ္စ သကမာတရဉ္စ အာဒါယ ယိသရာလဒေသံ အာဂမီတိ ။
+&सो तु उट्ठाय बालकण्च सकमातरञ्च आदाय यिसरालदेसं आगमीति ।
+%so tu uṭṭhāya bālakaṇca sakamātarañca ādāya yisarāladesaṃ āgamīti.
+~Then he having arisen and taken the child and his mother 
 Note:
 
 #Verse 22
