@@ -16,19 +16,19 @@ Note: Vāhako is anything that pulls up water or a flood
 
 # Verse 2
 @καὶ λέγων· Μετανοεῖτε, ἤγγικεν γὰρ ἡ βασιλεία τῶν οὐρανῶν. 
-$Burmese
-&Devanagari
-%Transliteration 
-~Translation
-Note:
+$သဂ္ဂရဋ္ဌံ သမီပံ အတော ပစ္ဆာတပ္ပထ ။
+&सग्गरट्ठं समीपं अतो पच्छातप्पथ ।
+%saggaraṭṭhaṃ samīpaṃ ato pacchātappatha
+~the kingdom of heavan is near, therefore repent.
+Note: pacchātappatha: pacchā: past + tappati: feel regret 
 
 # Verse 3
 @οὗτος γάρ ἐστιν ὁ ῥηθεὶς διὰ Ἠσαΐου τοῦ προφήτου λέγοντος· Φωνὴ βοῶντος ἐν τῇ ἐρήμῳ· Ἑτοιμάσατε τὴν ὁδὸν κυρίου, εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ. 
-$Burmese
-&Devanagari
-%Transliteration 
-~Translation
-Note:
+$ကိံ "ဒေဝပထံ သဇ္ဇေထ၊ မဂ္ဂံ ဥဇုံ ကရောထာ" တိ၊ ဝနေ သဒ္ဒါယန္တဿ သဒ္ဒေါတိ။ ယိသာယဟာနာဂတဝတ္တာရောဒိတော သောယေဝါတိ ။
+&किं "देवपथं सज्जेथ, मग्गं उजुं करोथा" ति, वने सद्दायन्तस्स सद्दोति। यिसय्हानागतवत्तारोदितो सोयेवाति ।
+%kiṃ devapathaṃ sajjetha maggaṃ ujuṃ karothā ti vane saddāyantassa saddo ti Yisayhānāgatavattārodito soyevāti 
+~Namely: 'Prepare the way of God, make the highway straight!'—this is the voice of one shouting in the forest. Just this is the one spoken of by the prophet Isaiah.
+Note: saṇṇatha must be sajjetha
 
 # Verse 4
 @αὐτὸς δὲ ὁ Ἰωάννης εἶχεν τὸ ἔνδυμα αὐτοῦ ἀπὸ τριχῶν καμήλου καὶ ζώνην δερματίνην περὶ τὴν ὀσφὺν αὐτοῦ, ἡ δὲ τροφὴ ἦν αὐτοῦ ἀκρίδες καὶ μέλι ἄγριον. 
