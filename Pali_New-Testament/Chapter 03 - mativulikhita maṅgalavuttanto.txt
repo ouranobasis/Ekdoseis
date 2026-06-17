@@ -10,9 +10,9 @@ Note:
 @Ἐν δὲ ταῖς ἡμέραις ἐκείναις παραγίνεται Ἰωάννης ὁ βαπτιστὴς κηρύσσων ἐν τῇ ἐρήμῳ τῆς Ἰουδαίας
 $တေသု ဒိနေသု ယောဟနော ဝါဟကော အာဂါမ္မ ယူဒါရညေ ဃောသေန္တော အာဟ ။
 &तेसु दिनेसु योहनो वाहको आगाम्म यूदारञ्ञे घोसेन्तो आह ।
-%tesu dinesu Yohano Vāhako āgāmma yūdāraññe ghosento āha...
-~In those days, John Siphon having come to the judean forests announcing he said...
-Note: Vāhako is anything that pulls up water or a flood
+%tesu dinesu Yohano Ogāhako āgāmma yūdāraññe ghosento āha...
+~In those days, John the Dipper having come to the judean forests announcing he said...
+Note: Ogahati: he dips = ogāhako
 
 # Verse 2
 @καὶ λέγων· Μετανοεῖτε, ἤγγικεν γὰρ ἡ βασιλεία τῶν οὐρανῶν. 
@@ -32,35 +32,35 @@ Note: saṇṇatha must be sajjetha
 
 # Verse 4
 @αὐτὸς δὲ ὁ Ἰωάννης εἶχεν τὸ ἔνδυμα αὐτοῦ ἀπὸ τριχῶν καμήλου καὶ ζώνην δερματίνην περὶ τὴν ὀσφὺν αὐτοῦ, ἡ δὲ τροφὴ ἦν αὐτοῦ ἀκρίδες καὶ μέλι ἄγριον. 
-$Burmese
-&Devanagari
-%Transliteration 
-~Translation
-Note:
+$ယောဟနော တု ဩဋ္ဌလောမကမ္ဗလံ နိဝါသကော ကဋိယာ စမ္မဘဒ္ဓေါ မဓုပဋဏ္ဂဘောဇကော အဟောသိ ။
+&योहनो तु ओट्ठलोमकम्बलं निवासको कटिया चम्मभद्धो मधुपटण्गभोजको अहोसि ।
+%yohano tu oṭṭhalomakambalaṃ nivāsako kaṭiyā cammabhaddho madhupaṭaṇgabhojako ahosi
+~However John was one who wears cloth of camel hair, bound in leather in the loins, an eater of locusts and honey.
+Note:kaṭī:waist, buttocks; camma:leather; oṭṭha:camel, lips; kambalaṃ cloth; paṭaṇga: moth, locust, grasshopper; bhojako: one who feeds
 
 # Verse 5
 @τότε ἐξεπορεύετο πρὸς αὐτὸν Ἱεροσόλυμα καὶ πᾶσα ἡ Ἰουδαία καὶ πᾶσα ἡ περίχωρος τοῦ Ἰορδάνου, 
-$Burmese
-&Devanagari
-%Transliteration 
-~Translation
-Note:
+$တဒါ ယိရုသလမေယျကာ စ သဗ္ဗေ ယုဒေယျကာ စ ယဒ္ဒနသမန္တာ သဗ္ဗေ စ တံ ဥပသံကမ္မ...
+&तदा यिरुसलमेय्यका च सब्बे युदेय्यका च यद्दनसमन्ता सब्बे च तं उपसंकम्म...
+%tadā Yirusalameyyakā ca sabbe Yudeyyakā ca yaddanasamantā sabbe ca taṃ upasaṃkamma...
+~Then all the people of Jerusalem and the people of Judea and all the surroundings of Jordan having approached him... 
+Note: Bārāṇaseyyaka: coming from Bārāṇasī thus Yirusalameyyakā: people of Jerusalem; samantā: neighboring, surrounding; upasaṃkamma: upasaṇkamitvā
 
 # Verse 6
 @καὶ ἐβαπτίζοντο ἐν τῷ Ἰορδάνῃ ποταμῷ ὑπ’ αὐτοῦ ἐξομολογούμενοι τὰς ἁμαρτίας αὐτῶν. 
-$Burmese
-&Devanagari
-%Transliteration 
-~Translation
+$ပပံ အာရောစေတွာ ယဒ္ဒနေ တေန ဩဂါဟိတာ တိ ။
+&पपं आरोचेत्वा यद्दने तेन ओगाहिता ति ।
+%papaṃ ārocetvā yaddane tena ogāhitā ti
+~Having declared evil, were dipped by him in the river.
 Note:
 
 # Verse 7
 @Ἰδὼν δὲ πολλοὺς τῶν Φαρισαίων καὶ Σαδδουκαίων ἐρχομένους ἐπὶ τὸ βάπτισμα αὐτοῦ εἶπεν αὐτοῖς· Γεννήματα ἐχιδνῶν, τίς ὑπέδειξεν ὑμῖν φυγεῖν ἀπὸ τῆς μελλούσης ὀργῆς; 
-$Burmese
-&Devanagari
-%Transliteration 
-~Translation
-Note:
+$အထ တေန ဩဂါဟနတ္ထံ အာဂစ္ဆန္တာ နာနာဖာရသိသာဒုကိနော ဒိသွာ တေသံ အာဟ ဟေ သပ္ပဝိသာ ကော တုမှာကံ ဇာနာပေသိ အာဂမန္ကောဓတော ပလာယိတုန္တိ ။
+&अथ तेन ओगाहनत्थं आगच्छन्ता नानाफारसिसादुकिनो दिस्वा तेसं आह हे सप्पविसा को तुम्हाकं जानापेसि आगमन्कोधतो पलायितुन्ति ।
+%atha tena ogāhanatthaṃ āgacchantā nānāphārasisādukino disvā tesaṃ āha he sappavisā ko tumhākaṃ jānāpesi āgamankodhato palāyitun ti
+~Then various pharasees and sadducees going for the purpose of dipping by him, having seen them, he said, Hey poisonous snakes, who among you made known to flee from the not yet come wrath?
+Note: visa: poisonous; ogāhanatthaṃ: for the purpose/benefit of dipping
 
 # Verse 8
 @ποιήσατε οὖν καρπὸν ἄξιον τῆς μετανοίας 

@@ -137,8 +137,8 @@ Note: dhava: husband
 #Verse 17
 @Πᾶσαι οὖν αἱ γενεαὶ ἀπὸ Ἀβραὰμ ἕως  Δαυὶδ γενεαὶ δεκατέσσαρες, καὶ ἀπὸ Δαυὶδ ἕως τῆς μετοικεσίας Βαβυλῶνος γενεαὶ δεκατέσσαρες, καὶ ἀπὸ τῆς μετοικεσίας Βαβυλῶνος ἕως τοῦ χριστοῦ γενεαὶ δεκατέσσαρες.
 $ဧဝံ အာဗြဟမသ္မာ ယာဝ ဒါဝုဒံ စုဒ္ဒသ ပုရိသာ၊ ဒါဝုဒတော ယာဝ ဗာဗိလောနနီတံ စုဒ္ဒသ ပုရိသာ၊ ဗာဗိလောနိတတော ယာဝ ကြိသ္တုံ စုဒ္ဒသ ပုရိသာတိ ။
-&evaṃ ābrahamasmā yāva dāvudaṃ cuddasa purisā, dāvudato yāva babilona-nītaṃ cuddasa purisā, babilonitato yāva kristuṃ cuddasa purisāti.
-%एवं आब्रहमस्मा याव दावुदं चुद्दस पुरिसा, दावुदतो याव बाबिलोननीतं चुद्दस पुरिसा, बाबिलोनिततो याव क्रिस्तुं चुद्दस पुरिसाति ।
+&एवं आब्रहमस्मा याव दावुदं चुद्दस पुरिसा, दावुदतो याव बाबिलोननीतं चुद्दस पुरिसा, बाबिलोनिततो याव क्रिस्तुं चुद्दस पुरिसाति ।
+%evaṃ ābrahamasmā yāva dāvudaṃ cuddasa purisā, dāvudato yāva babilona-nītaṃ cuddasa purisā, babilonitato yāva kristuṃ cuddasa purisāti.
 ~Thus from Abraham to David is fourteen sons, from David to the Babylonian leading away is fourteen sons, from the Babylonian leading away to Christ is fourteen sons.
 note:
 
