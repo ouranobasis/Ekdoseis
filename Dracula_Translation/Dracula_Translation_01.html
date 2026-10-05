@@ -17,10 +17,12 @@
     <h1 id="title">Η ΔΙΗΓΗΣΙΣ ΤΟΥ ΔΡΑΚΟΥΛΟΥ</h1>
     
     <div class="custom-dropdown" id="customDropdown">
-        <span id="dropdownText">κεφαλαίον εἷς</span>
+        <span id="dropdownText">κεφάλαιον εἷς</span>
         <div class="dropdown-menu">
-            <div onclick="selectOption(this, '01 - κεφαλαίον εἶς τῆς ἀρχαίας μεταφράσεως τοῦ Δρακοῦλου.txt')">κεφαλαίον εἷς</div>
-            <div onclick="selectOption(this, '02 - κεφαλαίον δύο τῆς ἀρχαίας μεταφράσεως τοῦ Δρακοῦλου.txt')">κεφαλαίον δύο</div>
+            <div onclick="selectOption(this, '01 - κεφάλαιον εἶς τῆς ἀρχαίας μεταφράσεως τοῦ Δρακοῦλου.txt')">κεφάλαιον εἷς</div>
+            <div onclick="selectOption(this, '02 - κεφάλαιον δύο τῆς ἀρχαίας μεταφράσεως τοῦ Δρακοῦλου.txt')">κεφάλαιον δύο</div>
+	    <div onclick="selectOption(this, '03 - κεφάλαιον τρεῖς τῆς ἀρχαίας μεταφράσεως τοῦ Δρακοῦλου')">κεφάλαιον τρεῖς</div>
+	    <div onclick="selectOption(this, '04 - κεφάλαιον τέτταρες τῆς ἀρχαίας μεταφράσεως τοῦ Δρακοῦλου')">κεφάλαιον τέτταρες</div>
         </div>
     </div>
     
@@ -29,7 +31,7 @@
     <script>
       // Load default text when page loads
       window.onload = function() {
-        var defaultText = loadFile("01 - κεφαλαίον εἶς τῆς ἀρχαίας μεταφράσεως τοῦ Δρακοῦλου.txt");
+        var defaultText = loadFile("01 - κεφάλαιον εἶς τῆς ἀρχαίας μεταφράσεως τοῦ Δρακοῦλου.txt");
         document.getElementById("text").innerText = defaultText;
       };
 
